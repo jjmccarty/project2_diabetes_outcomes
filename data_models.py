@@ -117,7 +117,7 @@ def get_best_pipeline(pipeline1, pipeline2, df):
         print("Returning reduced feature subset")
         X_train, X_test, y_train, y_test = preprocess_prod_data2(df)
         pipeline2.fit(X_train, y_train)
-        pipeline = pipeline2s
+        pipeline = pipeline2
         return X_train, X_test, y_train, y_test, pipeline
         #return pipeline2
     else:
