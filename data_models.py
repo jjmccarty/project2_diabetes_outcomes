@@ -189,8 +189,8 @@ def model_selector(df, models):
         model_data['model'] = type(pipeline.named_steps['model'])
         model_data['train_score'] = train_score
         model_data['test_score'] = test_score
-        #test_metrics = get_metrics(model_data['model'], y_test, testing_predictions)
-        #model_data['test_metrics'] = test_metrics
+        test_metrics = get_metrics(model_data['model'], y_test, testing_predictions)
+        model_data['test_metrics'] = test_metrics
         d[model_data['model']] = model_data
 
     return d
