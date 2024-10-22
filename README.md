@@ -1,2 +1,25 @@
-# project2_diabetes_outcomes
-Extension to the work done original diabetes outcomes from project 1
+# Diabetes Outcomes
+Predicting likelihood based on lifestyle 
+Extension of original work done on diabetes outcomes from project 1
+
+# Executive Summary 
+
+# Overview
+
+## Data Collection
+
+## Exploration
+
+## Data Training
+
+## Approach
+
+## Questions for the future
+
+## Results
+
+## Conclusions
+
+## Closing
+
+
