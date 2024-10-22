@@ -2,24 +2,24 @@
 Predicting likelihood based on lifestyle 
 Extension of original work done on diabetes outcomes from project 1
 
-#Executive Summary 
+# Executive Summary 
 
-#Overview
+# Overview
 
-##Data Collection
+## Data Collection
 
-##Exploration
+## Exploration
 
-##Data Training
+## Data Training
 
-##Approach
+## Approach
 
-##Questions for the future
+## Questions for the future
 
-##Results
+## Results
 
-##Conclusions
+## Conclusions
 
-##Closing
+## Closing
 
 
