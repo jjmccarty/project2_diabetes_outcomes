@@ -23,7 +23,6 @@ def getCleanColumnsForData(df):
     print(f'----> Renaming DiabetesPedigreeFunction column to FamilyHistory')
     df.rename(columns={'DiabetesPedigreeFunction':'FamilyHistory'}, inplace=True)
 
-    
     print(f'----> Mean will be substituted for 0 values')
     subMeanForZero(df, 'Glucose')
     subMeanForZero(df, 'BloodPressure')
@@ -70,7 +69,7 @@ def getCleanColumnsForBehavior(df):
 
     Returns:None
     """
-    
+    df.drop( df[ df['Sex'] == 1 ].index, inplace=True)
 
 # Primary function to retrieve dataframe outsize of this python file
 def getDiabetesBehaviorDataframe():
@@ -89,9 +88,6 @@ def getDiabetesBehaviorDataframe():
 
 if __name__ == '__main__':
     print('Run data_outcomes.py')
-
-    df = getDiabetesDataDataframe()
-    print(df)
 
     df2 = getDiabetesBehaviorDataframe()
     print(df2)
