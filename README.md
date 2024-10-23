@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project 2 -How lifestyle factors impact Diabetes Risk
 
 
@@ -38,3 +39,30 @@ All data outcomes are processed in the (file name)
 
 ## Outcomes/Conclusions
 
+=======
+# Diabetes Outcomes
+Predicting likelihood based on lifestyle 
+Extension of original work done on diabetes outcomes from project 1
+
+# Executive Summary 
+
+# Overview
+
+## Data Collection
+
+## Exploration
+
+## Data Training
+
+## Approach
+
+## Questions for the future
+
+## Results
+
+## Conclusions
+
+## Closing
+
+
+>>>>>>> b80db477429176009dd4e2b4604b0733042eb1d2
