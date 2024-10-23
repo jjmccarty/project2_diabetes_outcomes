@@ -161,7 +161,8 @@ def get_metrics(model_name, y_test, predictions):
     d['model'] = model_name
     accuracy = accuracy_score(y_test, predictions)
     confusion = confusion_matrix(y_test, predictions, labels=[1,0])
-    classification = classification_report(y_test, predictions, labels = [1, 0])
+    classification = classification_report(y_test, predictions, labels = [1, 0],output_dict=True, digits=5)
+    
     balanced_accuracy = balanced_accuracy_score(y_test, predictions)
     r2 = r2_score(y_test, predictions)
     d['accuracy'] = accuracy
