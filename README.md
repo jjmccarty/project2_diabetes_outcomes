@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project 2 -How lifestyle factors impact Diabetes Risk
 
 
@@ -28,8 +27,9 @@ Data sources for this analysis come from existing publicly available sources on 
 
 
 ## Data Processing
-n this project, we aimed to build on our previous work, which was centered around women. To maintain this focus, we processed the new dataset by filtering out male data, allowing us to continue our analysis exclusively on female-related information. This step allowed us to maintain consistency with the methodologies used in the prior analysis.
+In this project, we extended our previous work, which was focused on women, by applying a similar approach to a new dataset. To maintain consistency with our prior analysis, we filtered the dataset to exclude male data, ensuring that our analysis remained centered exclusively on female-related information.
 
+During preprocessing, we also evaluated the impact of removing certain features, specifically those related to stroke and heart attack. However, after testing, we found that excluding these features did not significantly improve the model's performance. As a result, we decided to retain these features in the dataset for further analysis, ensuring that our model maintained robustness and accuracy.
 
 ## Data Outcomes
 All data outcomes are processed in the (file name)
@@ -38,31 +38,6 @@ All data outcomes are processed in the (file name)
 
 
 ## Outcomes/Conclusions
+ 
+ One conclusion that we found is that the models ran better with Female only data compared to Male only data. The accuracy rate for male data was around 73% and 76% for female only data. 
 
-=======
-# Diabetes Outcomes
-Predicting likelihood based on lifestyle 
-Extension of original work done on diabetes outcomes from project 1
-
-# Executive Summary 
-
-# Overview
-
-## Data Collection
-
-## Exploration
-
-## Data Training
-
-## Approach
-
-## Questions for the future
-
-## Results
-
-## Conclusions
-
-## Closing
-
-
->>>>>>> b80db477429176009dd4e2b4604b0733042eb1d2
