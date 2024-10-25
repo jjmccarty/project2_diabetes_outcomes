@@ -281,6 +281,14 @@ def model_selector(df, models):
 
     return d
 
+
+def retrieve_model(df, model):
+    print(f'------------ Running predictions for {model}  --------------------')
+    X_train, X_test, y_train, y_test, pipeline = model_generator(df, model)
+    return X_train, X_test, y_train, y_test, pipeline
+
 if __name__ == "__main__":
     print("This script should not be run directly! Import these functions for use in another file.")
 
+    df = data_outcomes.getDiabetesBehaviorDataframe()
+    X_train, X_test, y_train, y_test, pipeline = retrieve_model(df, GradientBoostingClassifier(random_state=42, n_estimators=200))
