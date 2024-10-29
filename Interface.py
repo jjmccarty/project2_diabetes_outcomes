@@ -1,3 +1,10 @@
+#Code uses streamlit to provide a simply GUI interface/
+# To run execute --> streamlit run Interface.py from a command line.  It will
+# open a web page to the default localhost:8505 page for execution
+# Current code does not perform input checks due to time constraints.  
+
+
+
 import streamlit as st
 import pandas as pd
 
