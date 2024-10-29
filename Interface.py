@@ -1,13 +1,15 @@
 def collect_user_data():
     questions = [
         "How old are you?",
-        
+        "Have you had a cholesterol check in the last 5 years?"
         "Do you have high cholesterol?",
-        "Are you physically active?",
         "Do you consume alcohol often?",
-        "Are you a smoker?",
-        "Do you eat vegetables?",
-        "Do you eat fruit?"
+        "What is you BMI?"
+        "Have you smoked at least 100 cigarettes in your entire life??",
+        "Do you have coronary heart disease (CHD) or myocardial infarction (MI)?",
+        "Have you been physical activity in past 30 days?",
+        "Consume Vegetables 1 or more times per day?",
+        "Consume Fruit 1 or more times per day?"
     ]
 
 
