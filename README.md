@@ -17,7 +17,7 @@ The following team members were all original contributors to project
 The following files are the core code for the project
 - ```'Resources/diabetes_data.csv`` - data file backing the project dataframe
 - ```data_outcomes.py``` - python file that loads and cleans the data 
-- ```data_outcomes.ipynb``` - notebook for running the models and building the test and train data sets
+- ```diabetes_data.ipynb``` - notebook for running the models and building the test and train data sets
 - ```data_models.py``` - python file that is used for running the models 
 - ```interface.py```- python file that is used for our UI and prediction of new data.
 
