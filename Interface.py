@@ -142,7 +142,7 @@ bmi = st.text_input("What is your BMI?")
 smoker = getBool(st.selectbox("Have you smoked at least 100 cigarettes in your entire life?", ('Yes', 'No')))
 #heartdisease = getBool(st.selectbox("Do you have coronary heart disease (CHD) or myocardial infarction (MI)?", ("Yes", "No")))
 physactivity = getBool(st.selectbox("Have you been physical activity in past 30 days?", ("Yes", 'No')))
-fruites = getBool(st.selectbox("Consume Fruites 1 or more times per day?", ('Yes', 'No')))
+fruites = getBool(st.selectbox("Consume Fruits 1 or more times per day?", ('Yes', 'No')))
 veggies = getBool(st.selectbox("Consume Vegetables 1 or more times per day?", ("Yes", "No")))
 alcohol = getHeavyDrinker(st.text_input("Do you consume alcohol often (enter drinks per week?"), sex)
 genhealth = getGeneralHealth(st.selectbox("How would you say your health is?", ('Execellent', 'Very Good', 'Good', 'Fair', 'Poor')))
@@ -182,14 +182,14 @@ if st.button("Submit"):
     X_train, X_test, y_train, y_test, pipeline = data_models.model_generator(df1, gradientboost)
     testing_predictions = pipeline.predict(df)
 
-    st.write('Gradient Boost Resulsts')
+    st.write('Gradient Boost Results')
     st.write(testing_predictions)
 
     rfc = RandomForestClassifier(random_state=1, n_estimators=100, max_depth=10, class_weight='balanced')
     X_train, X_test, y_train, y_test, pipeline = data_models.retrieve_model(df1, rfc)
     testing_predictions = pipeline.predict(df)
 
-    st.write('Random Forest Resulsts')
+    st.write('Random Forest Results')
     st.write(testing_predictions)
     
     st.write(f"Hello, {name}!")
