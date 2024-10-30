@@ -54,12 +54,10 @@ import data_outcomes as data
 st.title("Diabetes Analysis Page")
 
 def getAgeCategory(num):
-    print(f'age {num}')
     if (num ==''):
         num = 18
     else:
         num = int(num)
-    print(f'age2 {num}')
     num_cat = 1
     if (num >=25 and num <=29):
         num_cat = 2
