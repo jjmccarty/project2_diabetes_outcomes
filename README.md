@@ -15,9 +15,11 @@ The following team members were all original contributors to project
 
 ## Project Files
 The following files are the core code for the project
-- ```'Resources/diabetes_data.csv''Resources/diabetes.csv'`` - data file backing the project dataframe
-- ```data_outcomes.py``` - python file for basic data processing and cleaning
-- ```data_jessica.ipynb``` - notebook for running the models and building the test and train data sets
+- ```'Resources/diabetes_data.csv`` - data file backing the project dataframe
+- ```data_outcomes.py``` - python file that loads and cleans the data 
+- ```data_outcomes.ipynb``` - notebook for running the models and building the test and train data sets
+- ```data_models.py``` - python file that is used for running the models 
+- ```interface.py```- python file that is used for our UI and prediction of new data.
 
 ## Data Sources
 Data sources for this analysis come from existing publicly available sources on Kaggel https://www.kaggle.com/datasets/prosperchuks/health-dataset.  This data was pulled down as ```'Resources/diabetes_data.csv'``` in the existing project. 
@@ -30,7 +32,7 @@ During preprocessing, we also evaluated the impact of removing certain features,
 
 
 ## Data Outcomes
-All data outcomes are processed in the (file name)
+All data outcomes are processed in the (```data_outcome.py```)
 
 In our project, we explored various machine learning models to identify the best fit for our data. After rigorous evaluation, Random Forest and Gradient Boosting emerged as the top-performing models. Both models highlighted three key lifestyle factors that significantly impact outcomes: Body Mass Index (BMI), heavy alcohol consumption, and age. These factors consistently influenced predictions, indicating their importance in understanding the patterns within our dataset.
 
